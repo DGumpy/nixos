@@ -1,0 +1,186 @@
+body {
+    position: relative;
+    isolation: isolate;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 209px;
+    height: 190px;
+
+    background: url("/static/misc/skelly.gif?v=1")
+                bottom right / contain no-repeat;
+
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* Page background */
+html,
+body {
+    background-color: #1e1e2e !important;
+}
+
+/* Default text color */
+body {
+    color: #cdd6f4 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #cdd6f4 !important;
+}
+
+/* Links: blue */
+a {
+    color: #89b4fa !important;
+}
+
+/* General text: light foreground */
+p, span, li, label,
+.article-text {
+    color: #cdd6f4 !important;
+}
+
+/* Search result titles: light foreground */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #cdd6f4 !important;
+}
+
+/* Search result preview text */
+.snippet,
+.snippet *,
+.result-snippet,
+.result-snippet *,
+.description,
+.description * {
+    color: #cdd6f4 !important;
+}
+
+/* Website titles in search results */
+.result h1,
+.result h2,
+.result h3,
+.result h4,
+.result h5,
+.result h6,
+.result-title,
+.result-title a,
+.result a.title,
+article h2 a,
+article h3 a {
+    color: #cdd6f4 !important;
+}
+
+/* Search input box */
+input,
+input[type="text"],
+input[type="search"],
+textarea {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+    border: 1px solid #45475a !important;
+}
+
+/* Placeholder text inside the search box */
+input::placeholder,
+textarea::placeholder {
+    color: #a6adc8 !important;
+    opacity: 1 !important;
+}
+
+/* Search input when focused */
+input:focus,
+input[type="search"]:focus,
+textarea:focus {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+    border-color: #89b4fa !important;
+    outline: none !important;
+}
+
+/* Search buttons */
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+    border-color: #45475a !important;
+}
+
+/* Force website result titles to use the light text color */
+article a,
+article a:visited,
+.result a,
+.result a:visited,
+.result-title a,
+.result-title a:visited,
+.result_header a,
+.result_header a:visited,
+h3 a,
+h3 a:visited,
+h4 a,
+h4 a:visited {
+    color: #cdd6f4 !important;
+}
+
+/* Override nested title elements */
+article h2,
+article h3,
+article h2 a,
+article h3 a,
+.result h2,
+.result h3,
+.result h2 a,
+.result h3 a {
+    color: #cdd6f4 !important;
+}
+
+/* Prevent hover styles from restoring the original color */
+article a:hover,
+.result a:hover,
+.result-title a:hover,
+h3 a:hover,
+h4 a:hover {
+    color: #89b4fa !important;
+}
+
+div.url {
+    color: #89b4fa !important;
+}
+
+div.title,
+div.title *,
+div.title a:link,
+div.title a:visited,
+div.title a:active {
+    color: #89b4fa !important;
+}
+
+/* Optional: blue when hovering */
+div.title a:hover {
+    color: #89b4fa !important;
+}
+
+table.info-table {
+    color: #cdd6f4 !important;
+    background: #45475a !important;
+    border: #89b4fa !important;
+}
+
+:root {
+    --1d2021: #313244;
+    --928374: #cdd6f4;
+    --a89984: #cdd6f4;
+    --282828: #89b4fa;
+    --504945: #89b4fa;
+    --8ec07c: #cdd6f4;
+    --bdae93: #89b4fa;
+}
+
+div.favicon-dropdown {
+    background: #45475a !important;
+}

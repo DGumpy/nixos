@@ -1,0 +1,158 @@
+@import 'colors/catppuccin-mocha.css';
+@import 'themes/nova-dark/notifications.css';
+@import 'themes/nova-dark/central_control.css';
+
+/* Force square corners on floating notifications */
+.floating-notifications.background .notification-row .notification-background,
+.floating-notifications .notification-row .notification-background,
+.notification-row .notification-background,
+.notification-background,
+.notification,
+.notification-content,
+.notification-default-action,
+.notification-action,
+.notification-alt-actions {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Widget buttons */
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: #313244;
+    color: #cdd6f4;
+    border-radius: 0px;
+    border: 1px solid @blue;
+}
+
+/* Hover */
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: #45475a;
+    color: @blue;
+}
+
+/* Active toggle buttons */
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+    background: @blue;
+    color: #1e1e2e;
+}
+
+
+/* Center widget contents */
+.widget-label,
+.widget-title,
+.widget-dnd,
+.widget-mpris,
+.widget-buttons-grid,
+.widget-notifications {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widget-backlight {
+    border-radius: 0;
+}
+
+/* Center text */
+.widget-label,
+.widget-title,
+.widget-dnd {
+    text-align: center;
+}
+
+/* Center the button grid */
+.widget-buttons-grid > flowbox {
+    justify-content: center;
+}
+
+/* Center individual buttons */
+.widget-buttons-grid > flowbox > flowboxchild {
+    margin: 2px;
+}
+
+/* Button styling */
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: #313244;
+    color: #cdd6f4;
+    border-radius: 0px;
+    border: 1px solid @blue;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: #45475a;
+    color: @blue;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+    background: @blue;
+    color: #1e1e2e;
+}
+
+.widget-mpris-album-art {
+    border-radius: 0;
+}
+
+/* Remove rounding from floating notification card */
+.floating-notifications.background .notification-row .notification-background {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Remove rounding from notification content */
+.floating-notifications.background .notification-row .notification-background .notification {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Remove rounding from notification action buttons */
+.floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
+    border-radius: 0;
+}
+
+/* Remove rounding from close button */
+.floating-notifications.background .notification-row .notification-background .close-button {
+    border-radius: 0;
+}
+
+/* Square corners: control center and its outer containers */
+.control-center,
+.control-center-window,
+.control-center .notification-row,
+.control-center .notification-background,
+.control-center .notification,
+.control-center .notification-content,
+.control-center .widget-title,
+.control-center .widget-dnd,
+.control-center .widget-label,
+.control-center .widget-mpris,
+.control-center .widget-buttons-grid,
+.control-center .widget-notifications {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Square corners: floating notifications */
+.floating-notifications,
+.floating-notifications.background,
+.floating-notifications .notification-row,
+.floating-notifications .notification-background,
+.floating-notifications .notification,
+.floating-notifications .notification-content {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Square corners: notification buttons */
+.notification-default-action,
+.notification-action,
+.notification-alt-actions,
+.close-button {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Square corners: control-center scroll area */
+.control-center .scrolled-window,
+.control-center .viewport {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}

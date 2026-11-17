@@ -1,0 +1,24 @@
+/* Address and search bar */
+#urlbar,
+#searchbar,
+#urlbar-input {
+font-family: "DepartureMono Nerd Font" !important;
+}
+
+/* Menus and dropdowns */
+menu,
+menuitem,
+menupopup,
+menupopup :is(menu, menuitem),
+.subviewbutton {
+    font-family: "DepartureMono Nerd Font" !important;
+}
+
+/* Tabs */
+.tabbrowser-tab {
+    font-family: "DepartureMono Nerd Font" !important;
+}
+
+* {
+    border-radius: 0px !important;
+}

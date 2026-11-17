@@ -1,0 +1,24 @@
+{
+  "units": "Fahrenheit",
+  "theme": "CatppuccinMocha",
+  "motion_mode": "Cinematic",
+  "no_flash": false,
+  "icon_mode": "NerdFont",
+  "hourly_view": "table",
+  "inline_hints": true,
+  "command_bar_enabled": true,
+  "hero_visual": "AtmosCanvas",
+  "refresh_interval_secs": 600,
+  "last_update_check_unix": 1794783836,
+  "last_seen_latest_version": null,
+  "recent_locations": [
+    {
+      "name": "Urbana",
+      "latitude": 40.111657,
+      "longitude": -88.207394,
+      "country": "United States",
+      "admin1": "Illinois",
+      "timezone": "America/Chicago"
+    }
+  ]
+}

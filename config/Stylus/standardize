@@ -1,0 +1,6 @@
+*,
+*::before,
+*::after {
+    font-family: "DepartureMono Nerd Font", monospace;
+    border-radius: 0 !important;
+}
