@@ -1,0 +1,73 @@
+Packages
+
+vscode
+librewolf
+discord
+nwg-look
+tor-browser
+audacious
+libsForQt5.qtstyleplugin-kvantum
+kdePackages.kate
+neovim
+kdePackages.qt6ct (might need to use libsForQt5.qt5ct instead)
+steam
+libreoffice-fresh
+fontforge
+qbittorrent (for linux ISOs ONLY)
+bluez
+blueman
+btop
+kitty
+obs-studio
+pinta
+vlc
+waypaper
+yazi
+hyprpicker
+hypridle
+hyprlock
+waybar
+swaync
+networkmanager
+pavucontrol
+cowsay
+lolcat
+fortune
+sl
+cbonsai
+slurp
+grim
+brightnessctl
+figlet
+rmatrix: https://github.com/Fierthraix/rmatrix
+fetch
+tree
+nano
+cava
+chess-tui
+starship
+fish
+tetris
+stockfish
+clamav
+pipx
+terrahour (you need pipx for this :\ )
+homebrew: https://github.com/zhaofengli/nix-homebrew
+terminal-weather (you need homebrew for this :\ )
+
+Extensions
+
+SponsorBlock
+Decentraleyes
+Web Archive
+Dark Reader: https://github.com/catppuccin/dark-reader
+Stylus
+View
+Cookie AutoDelete
+I don't care about cookies
+Return YouTube Dislike
+ViolentMonkey: https://www.4chan-x.net/ and https://github.com/3nly/StyleChan (nothing to see heare move along)
+
+Window Manager
+
+Hyprland: https://www.youtube.com/watch?v=7QLhCgDMqgw&t=1200s&pp=ygUObml4b3MgaHlwcmxhbmQ%3D
