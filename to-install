@@ -19,7 +19,7 @@ blueman
 btop
 kitty
 obs-studio
-pinta
+swappy
 vlc
 waypaper
 yazi
@@ -27,13 +27,14 @@ hyprpicker
 hypridle
 hyprlock
 waybar
-swaync
+swaynotificationcenter
 networkmanager
 pavucontrol
 cowsay
 lolcat
 fortune
 sl
+pipes
 cbonsai
 slurp
 grim
